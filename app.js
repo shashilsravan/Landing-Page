@@ -9,6 +9,7 @@ navToggle.addEventListener('click', function(){
     console.log(linksHeight);
     if (containerHeight === 0) {
         linksContainer.style.height = `${linksHeight}px`;
+        navToggle.classList.toggle('show');
     }
     else{
         linksContainer.style.height = 0;
